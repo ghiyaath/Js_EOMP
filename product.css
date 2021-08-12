@@ -1,6 +1,141 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+}
+
+.item-img {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    transition: 00.3s ease-in-out;
+}
+
+.item-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.line {
+    width: 5px;
+    height: 300px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.item {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255 , 255, 255, 0.18);
+    padding: 30px;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.add-btn {
+    background-color: #19cc19;
+    border-radius: 10px;
+    border: 1px solid #19cc19;
+    padding: 8px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.add-btn:hover {
+    background-color: #eb5050;
+    border: #0ce7ca;
+    color: #000000;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.image-icon {
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 170px;
+    width: 200px;
+}
+
+.head {
+    display: flex;
+    margin-top: 100px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.heading{
+    margin-left: 250px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.company-name {
+  font-size: 45px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.edit-cart {
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.user-cart {
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.edit-cart:hover{
+    transition: ease-in-out 0.2s;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.user-cart:hover {
+    transition: ease-in-out 0.2s;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.cart_edit{
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+.price {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
