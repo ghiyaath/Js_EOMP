@@ -8,6 +8,61 @@
     background: burlywood;
 }
 
+/* Navbar */
+
+.header {
+    padding: 20px;
+    width: 100%;
+    background: rgb(129, 129, 129);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  .header .logo {
+    font-style: italic;
+    font-size: 20px;
+  }
+  .h3 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 40%;
+  }
+  
+  .header .logo span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .header nav {
+    color: white;
+  }
+  
+  .header nav a {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .header nav a {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border-radius: 30px;
+  }
+  
+  .header nav a:hover {
+    opacity: 0.9;
+    color: rgb(255, 0, 0);
+  }
+
 .item-img {
     height: 100px;
     margin-top: 10px;
@@ -34,7 +89,7 @@
 .item {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 10px;
-    border: 1px solid rgba(255 , 255, 255, 0.18);
+    border: 2px solid rgba(255 , 255, 255, 0.18);
     padding: 30px;
     width: 350px;
     margin: 20px auto;
@@ -59,7 +114,7 @@
 .add-btn {
     background-color: #ffffff;
     border-radius: 10px;
-    border: 1px solid #0011ff;
+    border: 2px solid black;
     padding: 8px;
     color: #000000;
     margin-top: 20px;
@@ -79,64 +134,61 @@ body{
 }
 
 .image-icon {
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 10px;
-    height: 170px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    border: rgb(0, 0, 0) 1px solid;
 }
 
 .head {
     display: flex;
-    margin-top: 100px; 
+    margin-top: 57px; 
 }
 
-h1{
+.h1{
     margin-top: 20px;
     margin-left: 50px;
 }
 
 .heading{
-    margin-left: 250px;
+    margin-left: 300px;
     font-weight: bolder;
     font-family: sans-serif;
-}
-
-.company-name {
-  font-size: 45px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  color: #ff0000;
+    font-size: 50px;
+    color:darkslategrey;
 }
 
 .edit-cart {
     background: none;
     border: none;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
 .user-cart {
     background: none;
     border: none;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .edit-cart:hover{
     transition: ease-in-out 0.2s;
-    color: #ff0000;
+    color: #00ff0d;
     cursor: pointer;
     font-size: 3rem;
 }
 
 .user-cart:hover {
     transition: ease-in-out 0.2s;
-    color: #ff0000;
+    color: #00ff0d;
     cursor: pointer;
     font-size: 3rem;
 }
 
 .cart_edit{
-    margin-left: 800px;
+    margin-left: 77%;
     margin-top: 20px;
 }
 
