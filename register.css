@@ -18,7 +18,7 @@
     background-position-x: center;
 }
 
-#inputs{
+#inputs {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -30,7 +30,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .register-section{
@@ -41,7 +40,6 @@
     background-color: rgba(255, 255, 255, 0.5);
     width: 500px;
     margin: 120px auto;
-    
 }
 
 .contact-label {
